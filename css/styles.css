@@ -734,3 +734,12 @@ form{
 input:checked + label {
   background-color: red;
 }
+textarea{
+  resize: none;
+  width: 200px;
+  height: 200px;
+
+}
+fieldset{
+  border: 3px solid red;
+}

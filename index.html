@@ -279,19 +279,47 @@
 <div class="backdrop is-hidden" data-modal>
   <div class="modal">
     <button type="button" class="close-btn" data-modal-close>x</button>
-<input type="checkbox" name="hobby" value=" reading" />
+    
+    
+    
+    <form>
+      <h2 class="form-title">Zostaw swoje dane w formularzu poniżej</h2>
+      <ul>
+        <li>
+          <label for="name-input">Imie</label>
+          <input id="name-input" type="text" name="imie" placeholder="type email" width="448px">
+        </li>
+        <li>
+          <label for="telephone-input">Telefon
+            <input id="telephone-input" type="tel" name="telephone" placeholder="Telephone">
+          <svg class=""><use width="12" height="12" x="12" y="12" xlink:href="./images/icons.svg#icon-phone-black"></use></svg>
+          
+        </label>
+        </li>
+        <li>
+          <label for="email-input">Email</label>
+          <input id="email-input" type="email" name="email" placeholder="type email">
+        </li>
+        <li>
+          <label>
+            Komentarz
+            <textarea
+              rows="6"
+              cols="10"
+              name="feedback"
+              placeholder="type your message here"
+              maxlength="10"
+              minlength="5"
+              placeholder="type email"
+            ></textarea>
+          </label>
+        </li>
+      </ul>
+      
+      <button type="submit">Log in</button>
 
-reading
+    </form>
 
-<form>
-  <input type="email" name="email">
-
-  <input type="password" name="password">
-
-  <button type="submit">Log in</button>
-
-
-</form>
 
   </div>
 </div>

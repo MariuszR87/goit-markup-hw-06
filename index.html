@@ -255,7 +255,7 @@
 
     <footer class="footer">
       <div class="container fotter-spacing">
-        <div class="fotter-margin70">
+        <div class="">
           <a href="./index.html" class="logo">Web<span class="logo-white">Studio</span></a>
           <address class="footer-adress">
           <p>m. Warszawa, Aleje Jerozolimskie 21</p>
@@ -263,13 +263,21 @@
             <a class="links-contact links footer-links-contact" href="tel:+48111111111">+48 111 111 111</a>
           </address>
         </div>
-      <div class="">
+      <div class="fotter-margin70-78">
         <h3 class="class-h3 logo-white">DOŁĄCZ DO NAS</h3>
         <div class="social-links">
           <svg class="social-fotter-links-svg icon-spacing" width="44" height="44"><use width="20" height="20" x="12" y="12" xlink:href="./images/icons.svg#icon-instagram"></use></svg>
           <svg class="social-fotter-links-svg icon-spacing" width="44" height="44"><use width="20" height="20" x="12" y="12" xlink:href="./images/icons.svg#icon-twitter"></use></svg>
           <svg class="social-fotter-links-svg icon-spacing" width="44" height="44"><use width="20" height="20" x="12" y="12" xlink:href="./images/icons.svg#icon-facebook"></use></svg>
           <svg class="social-fotter-links-svg icon-spacing" width="44" height="44"><use width="20" height="20" x="12" y="12" xlink:href="./images/icons.svg#icon-linkedin"></use></svg>
+        </div>
+      </div>
+      <div class="">
+        <h3 class="class-h3 logo-white">DOŁĄCZ DO NAS</h3>
+        <div class="social-links">
+          <input type="email" name="email"/>
+          <svg class="social-fotter-links-svg icon-spacing" width="44" height="44"><use width="20" height="20" x="12" y="12" xlink:href="./images/icons.svg#icon-linkedin"></use></svg>
+          <input type="email" name="email"/>
         </div>
       </div>
       </div>
@@ -284,39 +292,31 @@
     
     <form>
       <h2 class="form-title">Zostaw swoje dane w formularzu poniżej</h2>
-      <ul>
-        <li>
-          <label for="name-input">Imie</label>
-          <input id="name-input" type="text" name="imie" placeholder="type email" width="448px">
-        </li>
-        <li>
-          <label for="telephone-input">Telefon
-            <input id="telephone-input" type="tel" name="telephone" placeholder="Telephone">
-          <svg class=""><use width="12" height="12" x="12" y="12" xlink:href="./images/icons.svg#icon-phone-black"></use></svg>
-          
-        </label>
-        </li>
-        <li>
-          <label for="email-input">Email</label>
-          <input id="email-input" type="email" name="email" placeholder="type email">
-        </li>
-        <li>
+      <label>
+        Imie
+        <input type="text" name="name"/>
+
+      </label>
+      <label>
+        Telefon
+        <input type="tel" name="phone_number"/>
+      </label>
+      <label>
+        Email
+        <input type="email" name="email"/>
+      </label>
+        
           <label>
             Komentarz
             <textarea
-              rows="6"
-              cols="10"
               name="feedback"
-              placeholder="type your message here"
+              placeholder="Wprowadź tekst"
               maxlength="10"
               minlength="5"
-              placeholder="type email"
             ></textarea>
           </label>
-        </li>
-      </ul>
       
-      <button type="submit">Log in</button>
+      <button class="submit-btn" type="submit">Wyślij</button>
 
     </form>
 

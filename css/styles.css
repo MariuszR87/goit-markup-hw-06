@@ -553,8 +553,9 @@ padding:20px 24px;
   align-items: center;
 }
 
-.fotter-margin70{
-  margin-right: 70px;
+.fotter-margin70-78{
+  margin-left: 70px;
+  margin-right: 78px;
 }
 
 .social-fotter-links-svg{
@@ -727,8 +728,9 @@ padding:20px 24px;
 
 form{
   border: 1px solid black;
-  margin: 20px auto;
-  padding: 10px;
+  margin: 0 auto;
+  padding: 40px;
+  box-sizing: border-box;
 }
 
 input:checked + label {
@@ -738,11 +740,57 @@ textarea{
   resize: none;
   width: 200px;
   height: 200px;
+  margin: 4px 0 20px 0;
 
 }
 fieldset{
   border: 3px solid red;
 }
-.form-title{
+label {
+  display: flex;
+  flex-direction: column;
+  margin: 10px auto;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.01em;
   
+  color: var(--font-color-second);
+}
+textarea{
+  display: flex;
+  flex-direction: column;
+  width: 448px;
+  height: 120px;
+  margin-bottom: 8px;
+  margin-top: 4px;
+  padding: 12px;
+  border: Solid #21212133;
+  border-radius: 4px;
+}
+
+input {
+  padding: 12px;
+  border: Solid #21212133;
+  border-radius: 4px;
+  font-family: inherit;
+  margin-top: 4px;
+}
+.submit-btn{
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.88;
+
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+margin: 30px auto;
+padding: 10px 76px;
 }

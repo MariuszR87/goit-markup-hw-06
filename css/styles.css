@@ -832,9 +832,9 @@ margin:15px 16px 0px 0px;
 
 .display-flex-center {
   display: flex;
-  /* border: 1px solid black; */
-align-items:flex-end;
-/* text-align: center; */
+  border: 1px solid black;
+align-items: center;
+text-align: center;
 }
 
 .icon-fotter{
@@ -863,6 +863,26 @@ form input {margin-bottom: 10px;}
   position: absolute;
   top: 32px;
   left: 10px;
+}
+
+.accept-text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--font-color-second);
+  
+  cursor: pointer;
+  position: relative;
+  display: inline;
+  align-items: center;
+  justify-content:flex-start;
+  margin: 0 auto:;
+}
+.accept-link{
+  color: var(--blue);
 }
 
 

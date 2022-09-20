@@ -553,9 +553,9 @@ padding:20px 24px;
   align-items: center;
 }
 
-.fotter-margin70-78{
+.fotter-margin70{
   margin-left: 70px;
-  margin-right: 78px;
+  margin-right: 70px;
 }
 
 .social-fotter-links-svg{
@@ -798,7 +798,7 @@ border-radius: 4px;
 }
 
 .submit-btn-fotter{
-  width: 200px;
+width: 200px;
 height: 50px;
 background: #2196F3;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -814,7 +814,7 @@ font-size: 16px;
 line-height: 1.88;
 color: var(--white);
 margin-bottom: 10px;
-
+border: none;
 }
 
 
@@ -824,7 +824,7 @@ margin-bottom: 10px;
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 border-radius: 4px;
 background-color: var(--background-color-secondary);
-width: 358px;
+width: 340px;
 height: 50px;
 margin:15px 16px 0px 0px;
 
@@ -832,16 +832,42 @@ margin:15px 16px 0px 0px;
 
 .display-flex-center {
   display: flex;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 align-items:flex-end;
 /* text-align: center; */
 }
 
 .icon-fotter{
-  margin: 13px 0px 13px 10px;
-  border: 1px solid black;
+  margin: 13px 0px 13px 22px;
   fill: var(--white);
 }
 
 form input {margin-bottom: 10px;}
 
+.modal-form {
+  position: relative;
+}
+
+.form-title{
+  margin-bottom: 12px;
+}
+
+.modal-sectors {
+  position: relative;
+  margin-top: 12px;
+  margin-bottom: 10px;
+}
+
+
+.icons-modal {
+  position: absolute;
+  top: 32px;
+  left: 10px;
+}
+
+
+
+
+.modal-icon {
+
+}

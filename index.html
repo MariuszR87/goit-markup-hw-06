@@ -263,7 +263,7 @@
             <a class="links-contact links footer-links-contact" href="tel:+48111111111">+48 111 111 111</a>
           </address>
         </div>
-      <div class="fotter-margin70-78">
+      <div class="fotter-margin70">
         <h3 class="class-h3 logo-white">DOŁĄCZ DO NAS</h3>
         <div class="social-links">
           <svg class="social-fotter-links-svg icon-spacing" width="44" height="44"><use width="20" height="20" x="12" y="12" xlink:href="./images/icons.svg#icon-instagram"></use></svg>
@@ -289,33 +289,46 @@
   <div class="modal">
     <button type="button" class="close-btn" data-modal-close>x</button>
     
-    
-    
-    <form>
+    <form class="modal-form">
       <h2 class="form-title">Zostaw swoje dane w formularzu poniżej</h2>
-      <label>
-        Imie
-        <input type="text" name="name"/>
-        <svg class="modal-icon" width="12px" height="12px"><use href=./images/icons.svg#icon-person-black></use></svg>
-      </label>
-      <label>
-        Telefon
-        <input type="tel" name="phone_number"/>
-      </label>
-      <label>
-        Email
-        <input type="email" name="email"/>
-      </label>
+      <div class="modal-sectors">
+        <label>
+          Imie
+          <input type="text" name="name"/>
+          <svg width="18" height="18" class="icon-modal icons-modal"><use href="./images/icons.svg#icon-person"></use></svg>
+        </label>
+      </div>
+     <div class="modal-sectors">
+        <label>
+          Telefon
+          <input type="tel" name="phone_number"/>
+          <svg width="18" height="18" class="icon-modal icons-modal"><use href="./images/icons.svg#icon-phone"></use></svg>
+        </label>
+     </div>
+   <div class="modal-sectors">
+        <label>
+          Email
+          <input type="email" name="email"/>
+          <svg width="18" height="18" class="icon-modal icons-modal"><use href="./images/icons.svg#icon-email"></use></svg>
+        </label>
+   </div>
         
-          <label>
-            Komentarz
-            <textarea
-              name="feedback"
-              placeholder="Wprowadź tekst"
-              maxlength="10"
-              minlength="5"
-            ></textarea>
-          </label>
+      <div class="modal-sectors">
+            <label>
+              Komentarz
+              <textarea
+                name="feedback"
+                placeholder="Wprowadź tekst"
+                maxlength="10"
+                minlength="5"
+              ></textarea>
+            </label>
+      </div>
+
+      <label>
+        <input type="checkbox" name="hobby" value="sports" checked />
+        Sports
+      </label>
       
       <button class="submit-btn" type="submit">Wyślij</button>
 

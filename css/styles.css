@@ -813,7 +813,7 @@ font-weight: 700;
 font-size: 16px;
 line-height: 1.88;
 color: var(--white);
-margin-bottom: 10px;
+margin-top: 20px;
 border: none;
 }
 
@@ -832,7 +832,7 @@ margin:15px 16px 0px 0px;
 
 .display-flex-center {
   display: flex;
-  border: 1px solid black;
+
 align-items: center;
 text-align: center;
 }

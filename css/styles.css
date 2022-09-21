@@ -831,8 +831,7 @@ margin:15px 16px 0px 0px;
 }
 
 .display-flex-center {
-  display: flex;
-
+display: flex;
 align-items: center;
 text-align: center;
 }
@@ -886,13 +885,6 @@ padding-left: 30px;}
 .text-area{
   resize: none;
 }
-
-
-
-/* .accept-checkbox:checked + label::before {
-  border: none;
-  background-image: url("./images/icons.svg#icon-check");
-} */
 
 .label-modal:hover,
 .label-modal:focus-within,

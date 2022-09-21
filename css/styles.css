@@ -722,7 +722,9 @@ padding:20px 24px;
   height: 30px;
   border-radius: 50%;
   border: solid 1px rgba(0, 0, 0, 0.1);
-  cursor: pointer;}
+  cursor: pointer;
+  z-index: 2;
+}
 
 /* homework6 */
 
@@ -733,9 +735,7 @@ form{
   box-sizing: border-box;
 }
 
-input:checked + label {
-  background-color: red;
-}
+
 textarea{
   resize: none;
   width: 200px;
@@ -924,10 +924,6 @@ padding-left: 30px;}
   
 }
 
-  .checkbox-div {
-    display: block;
-  }
-
   .checkbox-label::before {
     display: block;
     position: absolute;
@@ -954,7 +950,9 @@ padding-left: 30px;}
   }
 
 
-
+  input:checked + label {
+    background-color: red;
+  }
 
 
 

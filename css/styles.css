@@ -878,6 +878,9 @@ padding-left: 30px;}
   border-color: var(--blue);
   fill: var(--blue);
   outline-color: var(--blue);
+  transition-property: border-color, fill, outline-color;
+  transition-duration:  250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 ::after,
@@ -931,3 +934,12 @@ padding-left: 30px;}
     border-radius: 3px;
   }
 
+  .submit-btn:hover, .submit-btn:focus,
+  .submit-btn-fotter:hover, .submit-btn-fotter:focus{
+    cursor: pointer;
+    /* dodatkowo */
+    background-color: darkcyan;
+    transition-property: background-color;
+    transition-duration:  250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }

@@ -827,6 +827,7 @@ background-color: var(--background-color-secondary);
 width: 340px;
 height: 50px;
 margin:15px 16px 0px 0px;
+color: var(--not-white);
 
 }
 

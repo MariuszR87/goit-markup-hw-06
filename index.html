@@ -295,39 +295,40 @@
         <label>
           Imie
           <input type="text" name="name"/>
-          <svg width="18" height="18" class="icon-modal icons-modal"><use href="./images/icons.svg#icon-person"></use></svg>
+          <svg width="18" height="18" class="icons-modal"><use href="./images/icons.svg#icon-person"></use></svg>
         </label>
       </div>
      <div class="modal-sectors">
         <label>
           Telefon
           <input type="tel" name="phone_number"/>
-          <svg width="18" height="18" class="icon-modal icons-modal"><use href="./images/icons.svg#icon-phone"></use></svg>
+          <svg width="18" height="18" class="icons-modal"><use href="./images/icons.svg#icon-phone"></use></svg>
         </label>
      </div>
    <div class="modal-sectors">
         <label>
           Email
           <input type="email" name="email"/>
-          <svg width="18" height="18" class="icon-modal icons-modal"><use href="./images/icons.svg#icon-email"></use></svg>
+          <svg width="18" height="18" class="icons-modal"><use href="./images/icons.svg#icon-email"></use></svg>
         </label>
    </div>
         
       <div class="modal-sectors">
             <label>
               Komentarz
-              <textarea
+              <textarea class="text-area"
                 name="feedback"
                 placeholder="Wprowadź tekst"
-                maxlength="10"
+                maxlength="100"
                 minlength="5"
               ></textarea>
             </label>
       </div>
 
     
-        <label class="accept-text">
-          <input type="checkbox" name="hobby" value="sports" checked />
+        <label for="accept-notes"  class="accept-text">
+          <input id="accept-notes" class="accept-checkbox" type="checkbox" name="agrees" required />
+          <!-- <svg width="16" height="15" class="icons-modal-agree"><use href="./images/icons.svg#icon-check"></use></svg> -->
           Oświadczam iż akceptuję <a href="#"rel="noopener noreferrer" target="_blank" class="accept-link">Regulamin</a> i <a href="#"rel="noopener noreferrer" target="_blank" class="accept-link">Politykę Prywatności</a>.
         </label>
     

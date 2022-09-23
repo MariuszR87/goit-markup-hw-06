@@ -955,7 +955,6 @@ padding-left: 30px;}
   .submit-btn:hover, .submit-btn:focus,
   .submit-btn-fotter:hover, .submit-btn-fotter:focus{
     cursor: pointer;
-    /* dodatkowo */
     background-color: darkcyan;
     transition-property: background-color;
     transition-duration:  250ms;
